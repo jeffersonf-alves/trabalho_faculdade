@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    background-color: black;    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#home {
+    border-bottom: 2px solid white;
+}
+#historia {
+    border-bottom: 2px solid white;
+}
+#albuns {
+    border-bottom: 2px solid white;
+}
+#cadastrar {
+    border-bottom: 2px solid white;
+}
+.container header {
+    background-color: #112031;
+    width: 100%;
+    height: 15%;
+    color: white;
+}
+.container header h2 {
+    text-align: center;
+    padding: 15px;
+}
+.container header ul {
+    display: flex;
+    justify-content: space-around;
+}
+.container header ul li {
+    list-style: none;
+}
+.container header ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.container header ul li a:hover {
+    border-bottom: 2px solid white;
+} 
+.container section {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container section div {
+    width: 500px;
+    height: 300px;
+}
+#fundo {
+    background-image: url('img/the-lumineers01.jpg');
+    background-size: cover;
+    border-radius: 5px;
+}
+#content01 {
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+#content01 h2 {
+    padding: 10px;
+}
+#content01 p {
+    text-align: justify;
+    padding: 10px;
+}
+.container footer {
+    background-color: #345B63;
+    width: 100%;
+    height: 10%;
+}
+.container footer h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    margin: 15px;
+    
+}
+
+.container .albuns {
+    width: 95%;
+}
+.container .albuns div {
+    background-color: white;
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+.container .albuns div:hover {
+    width: 510px;
+    height: 310px;
+}
+#album1 {
+    background-image: url('img/algubum-angela.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#album2 {
+    background-image: url('img/album3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#album3 {
+    background-image: url('img/album1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#album4 {
+    background-image: url('img/algum2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#album5 {
+    background-image: url('img/algum-loss.jpeg');
+    background-size: cover;
+    background-position: center;
+}
